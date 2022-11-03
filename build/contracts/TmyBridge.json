@@ -90,7 +90,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"date\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"burn\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract TTS20\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TmyBridge.sol\":\"TmyBridge\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/BaseBridge.sol\":{\"keccak256\":\"0x9430ffead103094c54122e5415b14018dbb2644897df596126bef08d8f3e7247\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://9257e2071d66a25243757df9c7e248b353fd3e27f41457b3d66ee6bad87c9695\",\"dweb:/ipfs/QmfGyJoc7Ksc6qdcws5tg8xTiTfYBys4XjsFQXTzwusRLM\"]},\"project:/contracts/TTS20.sol\":{\"keccak256\":\"0xa30c72b73a064e7dcf7b7c4e60b797ff4468f32c9a4d96c4be27cd63e1000a76\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://9075f75afdc9da158dc965a29f6102d974a431d1b5f314e7913ce527bbad3f1c\",\"dweb:/ipfs/QmewaQHQ52q9CrC7Rwd3EtNRmGeRRsR2JTuGqyQEmrphSu\"]},\"project:/contracts/TmyBridge.sol\":{\"keccak256\":\"0x69112fb5aa4f3a64e996cf09e6fa463e5e0b7f369ae7ee2b6fe7c29d2bb6040f\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://09f7ef514d613d1bc873eda7f069f0f592ccac6751dad762f3e50a540059625f\",\"dweb:/ipfs/QmbSUo7GpVSKMZ52ZS7YrprWVYDcJrjdBEGK3w6nR2Epm3\"]}},\"version\":1}",
@@ -2746,12 +2747,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x50521F5acF3F3Ebe710BC676afe7128010f265B9",
-      "transactionHash": "0xedb22f360aa5e32b13c3988680f337ad4d5ad6b088eb64a633b50c69e64f310d"
+      "address": "0xa0cAD384ee2e16F496D942670E39D6B5F7A24a48",
+      "transactionHash": "0xc40a61567261e0aeb01d0d2cd66c97e24462724ab6279493a4db7a8da90e3537"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-11-01T17:05:43.235Z",
+  "updatedAt": "2022-11-03T15:09:31.050Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

@@ -2,7 +2,6 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const mnemonic = 'vocal poverty end spy lizard symbol army pluck exercise harbor ahead offer'; 
 //Используется для авторизации в ноде,должна совпадать с тем аккаунтом откуда создаются транзакции
-
 module.exports = {
   /**
    * Networks define how you connect to your ethereum client and let you set the

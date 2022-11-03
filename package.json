@@ -8,7 +8,9 @@
   "scripts": {
     "Bridge service start": "node ./scripts/bridgeService.js",
     "TMY Balance" : "truffle exec ./scripts/tmy-token-balance.js --network tmy",
-    "Binance Balance" : "truffle exec ./scripts/binance-token-balance.js   --network binance"
+    "Binance Balance" : "truffle exec ./scripts/binance-token-balance.js   --network binance",
+    "Deploy to tmy" : "truffle migrate --reset --network tmy",
+    "Deploy to binance" : "truffle migrate --reset --network binance"
 
   },
   "keywords": [],
